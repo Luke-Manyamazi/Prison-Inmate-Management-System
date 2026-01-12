@@ -1,0 +1,43 @@
+# --- Java / Maven (Backend) ---
+backend/target/
+backend/.mvn/
+backend/*.jar
+backend/*.war
+backend/*.zip
+backend/*.tar.gz
+backend/mvnw
+backend/mvnw.cmd
+
+# --- C / C++ (Hardware Bridge) ---
+hardware-bridge/build/
+hardware-bridge/bin/
+hardware-bridge/obj/
+hardware-bridge/.vscode/
+hardware-bridge/*.exe
+hardware-bridge/*.out
+hardware-bridge/*.app
+hardware-bridge/*.so
+hardware-bridge/*.dll
+hardware-bridge/*.dylib
+hardware-bridge/*.lib
+
+# --- Web / Frontend ---
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/.DS_Store
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+.settings/
+.project
+.classpath
+
+# --- Database & Logs ---
+*.log
+database/backups/
