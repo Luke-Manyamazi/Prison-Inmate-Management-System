@@ -1,0 +1,34 @@
+# --- Java & Build Tools ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+mvnw
+mvnw.cmd
+
+# --- IDE Specific (IntelliJ, VS Code, Eclipse) ---
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+.factorypath
+
+# --- Database & Flyway ---
+# Don't ignore migration files, but ignore local SQLite or DB logs
+*.log
+.db/
+
+# --- Operating System ---
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- Sensitive Environment Info ---
+# If you eventually use .env files for secrets
+.env
+.env.local
