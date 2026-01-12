@@ -17,7 +17,11 @@ CREATE TABLE inmates (
     inmate_number VARCHAR(50) NOT NULL UNIQUE,
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
+    date_of_birth DATE,
+    gender VARCHAR(20),
     fingerprint_template TEXT,
     facial_data_hash TEXT,
-    status VARCHAR(50) DEFAULT 'ADMITTED'
+    status VARCHAR(50) DEFAULT 'ADMITTED',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
