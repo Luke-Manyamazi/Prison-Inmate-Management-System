@@ -1,0 +1,3 @@
+com\prison\data\repositories\InmateRepository.class
+com\prison\data\models\Inmate.class
+com\prison\PrisonSystemApplication.class
