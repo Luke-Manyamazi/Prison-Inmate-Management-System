@@ -1,3 +1,4 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.sourceDirectory": "C:/Users/Luke/Documents/ZOU/Luke/Part 3/3.1/BSSE380 - IT Capstone Project 1/PIMS/hardware-bridge"
 }
